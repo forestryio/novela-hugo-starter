@@ -1,6 +1,42 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/8fd7da5f-0c4d-4a43-9e23-2d1baf0d35cc/deploy-status)](https://app.netlify.com/sites/hugo-novela-forestry/deploys)
+
 # Hugo Novela
 
-A port of [Narrative](https://www.narative.co/)'s Gatsby theme [Novela"](https://www.narative.co/labs/novela/)
+A port of [Narrative](https://www.narative.co/)'s Gatsby theme [Novela](https://www.narative.co/labs/novela/)
+
+<a href="https://app.forestry.io/quick-start?repo=forestryio/novela-hugo-starter&engine=hugo&version=0.60.1">
+    <img alt="Import this project into Forestry" src="https://assets.forestry.io/import-to-forestryK.svg" />
+</a>
+
+## Forestry (content management)
+
+This project has been pre-configured to work with Forestry, just import your repository ✨
+Any changes you make will be commited back to the repo, and deployed if you're using Netlify.
+
+## Deploy with Netlify
+
+Import your site in [Netlify](https://netlify.com)
+
+1. Create a new site in Netlify and import your repository.
+2. Set the build command to: `hugo --minify`
+3. Set the publish directory to: `public`
+
+That's it, now your site gets deployed automatically on `git push` or when saving documents from Forestry.
+
+## Development
+
+```bash
+# clone the repository
+git clone git@github.com:forestryio/novela-hugo-starter.git
+
+# cd in the project directory
+cd novela-hugo-starter
+
+# Start local dev server
+hugo server
+```
+
+For more information, see [official Hugo documentation](https://gohugo.io/getting-started/).
 
 ## Customization
 
