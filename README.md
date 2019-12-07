@@ -12,7 +12,9 @@ A port of [Narrative](https://www.narative.co/)'s Gatsby theme [Novela](https://
 
 ## Forestry (content management)
 
-This project has been pre-configured to work with Forestry, just import your repository ✨
+![Forestry user interface](images/novela-forestry.png)
+
+This project has been pre-configured to work with Forestry, just import your repository ✨. 
 Any changes you make will be commited back to the repo, and deployed if you're using Netlify.
 
 ## Deploy with Netlify
