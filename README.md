@@ -1,6 +1,6 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/8fd7da5f-0c4d-4a43-9e23-2d1baf0d35cc/deploy-status)](https://app.netlify.com/sites/hugo-novela-forestry/deploys)
 
-# Hugo Novela
+# Hugo Novela Forestry Starter
 
 A port of [Narrative](https://www.narative.co/)'s Gatsby theme [Novela](https://www.narative.co/labs/novela/)
 
@@ -10,14 +10,14 @@ A port of [Narrative](https://www.narative.co/)'s Gatsby theme [Novela](https://
     <img alt="Import this project into Forestry" src="https://assets.forestry.io/import-to-forestryK.svg" />
 </a>
 
-## Forestry (content management)
+## Content Management
 
 ![Forestry user interface](images/novela-forestry.png)
 
-This project has been pre-configured to work with Forestry, just import your repository ✨. 
+This project has been pre-configured to work with [Forestry](https://forestry.io), just import your repository ✨. \
 Any changes you make will be commited back to the repo, and deployed if you're using Netlify.
 
-## Deploy with Netlify
+## Deployment and hosting with Netlify
 
 Import your site in [Netlify](https://netlify.com)
 
@@ -105,3 +105,8 @@ It uses [formspree.io](//formspree.io/) as proxy to send the actual email. Each 
 ```
 {{< subscribe email="your@email.com" >}}
 ```
+
+
+## LICENSE
+
+MIT
