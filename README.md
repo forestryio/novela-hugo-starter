@@ -10,6 +10,10 @@ A port of [Narative](https://www.narative.co/)'s Gatsby theme [Novela](https://w
     <img alt="Import this project into Forestry" src="https://assets.forestry.io/import-to-forestryK.svg" />
 </a>
 
+## Prerequisiteq
+
+- Hugo > 0.55.0
+
 ## Content Management
 
 ![Forestry user interface](images/novela-forestry.png)
@@ -22,7 +26,9 @@ Any changes you make will be commited back to the repo, and deployed if you're u
 Import your site in [Netlify](https://netlify.com)
 
 1. Create a new site in Netlify and import your repository.
-2. Set the build command to: `hugo --minify`
+2. Set the build command to: `hugo --gc --minify`
+3. Set the publish directory to: `public`
+4. Make sure to set `HUGO_VERSION` to 0.55.0 or above (tested with 0.62.2)
 3. Set the publish directory to: `public`
 
 That's it, now your site gets deployed automatically on `git push` or when saving documents from Forestry.
