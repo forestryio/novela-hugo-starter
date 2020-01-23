@@ -10,7 +10,7 @@ A port of [Narative](https://www.narative.co/)'s Gatsby theme [Novela](https://w
     <img alt="Import this project into Forestry" src="https://assets.forestry.io/import-to-forestryK.svg" />
 </a>
 
-## Prerequisiteq
+## Prerequisites
 
 - Hugo > 0.55.0
 
