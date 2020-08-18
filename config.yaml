@@ -4,7 +4,10 @@ title: "Hugo Novela"
 pygmentsstyle: 'monokai'
 
 # Theme settings
-theme: novela
+# theme: novela
+module:
+  imports:
+    - path: "github.com/forestryio/hugo-theme-novela"
 paginate: 6
 social:
   twitter: "#"
