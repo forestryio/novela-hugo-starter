@@ -6,13 +6,13 @@ A port of [Narative](https://www.narative.co/)'s Gatsby theme [Novela](https://w
 
 ![](images/tn.png)
 
-<a href="https://app.forestry.io/quick-start?repo=forestryio/novela-hugo-starter&engine=hugo&version=0.62.2">
+<a href="https://app.forestry.io/quick-start?repo=forestryio/novela-hugo-starter&engine=hugo&version=0.75.1">
     <img alt="Import this project into Forestry" src="https://assets.forestry.io/import-to-forestryK.svg" />
 </a>
 
 ## Prerequisites
 
-- Hugo > 0.55.0
+- Hugo > 0.55.0 (tested with latest version)
 
 ## Content Management
 
@@ -28,20 +28,16 @@ Import your site in [Netlify](https://netlify.com)
 1. Create a new site in Netlify and import your repository.
 2. Set the build command to: `hugo --gc --minify`
 3. Set the publish directory to: `public`
-4. Make sure to set `HUGO_VERSION` to 0.55.0 or above (tested with 0.62.2)
+4. Make sure to set `HUGO_VERSION` to 0.55.0 or above (tested with latest version)
 
 That's it, now your site gets deployed automatically on `git push` or when saving documents from Forestry.
 
 ## Development
 
 ```bash
-# clone the repository
-git clone git@github.com:forestryio/novela-hugo-starter.git
-
-# cd in the project directory
-cd novela-hugo-starter
-
-# Start local dev server
+# clone your repository
+# cd in your project directory
+# Start local server
 hugo server
 ```
 
@@ -95,6 +91,7 @@ social:
 ```
 
 #### Assigning authors to posts.
+
 Add the name of the author to the "authors" field:
 
 ```yaml
