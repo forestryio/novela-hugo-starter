@@ -21,13 +21,13 @@ This starter is importing the theme as a [Hugo Module](https://gohugo.io/hugo-mo
 
 ![Forestry user interface](images/novela-forestry.png)
 
-This project has been pre-configured to work with [Forestry](https://forestry.io), just import your repository ✨.
+This starter is ready to be imported into [Forestry](https://forestry.io)  ✨.
 
-Any changes you make will be commited back to the repo, and deployed if you're using Netlify.
+Any changes you save in the CMS will be commited back to your Git repository.
 
-## Deployment and hosting with Netlify
+## Deploy on Netlify
 
-Import your site in [Netlify](https://netlify.com)
+Import your repository in [Netlify](https://netlify.com)
 
 1. Create a new site in Netlify and import your repository.
 2. Set the build command to: `hugo --gc --minify`
@@ -36,6 +36,12 @@ Import your site in [Netlify](https://netlify.com)
 4. Set `HUGO_VERSION` to `0.65.3` or above
 
 That's it, now your site gets deployed automatically on `git push` or when saving documents from Forestry.
+
+## Deploy on Vercel
+
+Import your repository in [Vercel](https://vercel.com/new/git/third-party)
+
+[Add a bash script](https://gist.github.com/DirtyF/4f89704ecd619c0dcd439d74115da542#file-hugo_build-sh) and [build steps via a `vercel.json` file](https://gist.github.com/DirtyF/4f89704ecd619c0dcd439d74115da542#file-vercel-json) in your repository in order to build the site.
 
 ## Development
 
